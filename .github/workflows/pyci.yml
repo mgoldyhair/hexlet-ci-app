@@ -20,7 +20,7 @@ jobs:
           make start
       - name: Run test
         run: |
-        make test
+          make test
       - name: Run linter
         run: |
           make lint
