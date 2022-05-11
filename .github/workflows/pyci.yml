@@ -16,9 +16,9 @@ jobs:
         run: npm install
       - name: Make install
         uses: |
-        make setup
-        make start
+          make setup
+          make start
       - name: Run test 
-        make test
+          make test
         run: Run linter
-        make lint
+          make lint
