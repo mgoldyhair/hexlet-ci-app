@@ -18,7 +18,9 @@ jobs:
         uses: |
           make setup
           make start
-      - name: Run test 
-        run: make test
+      - name: Run test
+        run: |
+        make test
       - name: Run linter
-        run: make lint
+        run: |
+          make lint
