@@ -16,7 +16,7 @@ jobs:
         run: |
           npm install
       - name: Make install
-        uses: |
+        run: |
           make setup
           make start
       - name: Run test
